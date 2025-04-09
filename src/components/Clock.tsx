@@ -2,9 +2,9 @@
 
 import { useEffect, useState } from "react"
 import { Settings } from "lucide-react"
-import { Switch } from "../ui/Switch.tsx"
-import { Checkbox } from "../ui/Checkbox.tsx"
-import { cn } from "@/lib/utils"
+import { Switch } from "../components/ui/Switch"
+import { Checkbox } from "../components/ui/Checkbox"
+import { cn } from "../lib/utils"
 
 interface ClockSettings {
   isAnalog: boolean
