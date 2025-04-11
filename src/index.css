@@ -120,3 +120,6 @@
     color: var(--color-foreground);
   }
 }
+body {
+  background: linear-gradient(to right, red, orange);
+}
